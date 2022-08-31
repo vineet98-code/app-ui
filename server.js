@@ -34,3 +34,11 @@ app.listen(PORT, () => {
 })
 
 module.exports = app;
+
+
+return (
+    <div style={{ width: "700px", height: "500px" }}>
+
+      <ReactFlow elements={elements}  />
+    </div>
+  );
