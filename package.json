@@ -1,0 +1,26 @@
+{
+  "name": "app-ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "app-ui": "npm start --prefix app-ui",
+    "start": "node server.js",
+    "both": "concurrently \"npm start\" \"npm run app-ui\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineet98-code/app-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineet98-code/app-ui/issues"
+  },
+  "homepage": "https://github.com/vineet98-code/app-ui#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
