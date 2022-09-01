@@ -27,6 +27,7 @@ function Flow() {
       edges={edges}
       onNodesChange={onNodesChange}
       onEdgesChange={onEdgesChange}
+      connectOnClick ={true}
       fitView
       />
       </div>
